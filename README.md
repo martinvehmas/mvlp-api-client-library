@@ -1,2 +1,2 @@
 # learnpoint-api-client-library
-Client library for Learnpoint API
+Experimenting with client library for Learnpoint API.
