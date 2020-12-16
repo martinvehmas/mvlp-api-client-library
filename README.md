@@ -1,2 +1,2 @@
-# learnpoint-api-client-library
+# mvlp-api-client-library
 Experimenting with client library for Learnpoint API.
