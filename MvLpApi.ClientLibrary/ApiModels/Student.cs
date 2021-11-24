@@ -12,6 +12,7 @@ namespace MvLpApi.ClientLibrary.ApiModels
         public string LastName { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
+        public string Email2 { get; set; }
         public string MobilePhone { get; set; }
         public StudentHomeAddress HomeAddress { get; set; }
         public string HomePhone { get; set; }
