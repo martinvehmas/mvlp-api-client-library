@@ -12,5 +12,13 @@ namespace MvLpApi.ClientLibrary.ApiModels
         public DateTime? LifespanUntil { get; set; }
         public GroupCategory Category { get; set; }
         public ParentGroupReference ParentGroup { get; set; }
+        public IEnumerable<ExtendedProperty> ExtendedProperties { get; set; }
+
+        public class ExtendedProperty
+        {
+            public string Name { get; set; }
+            public string Value { get; set; }
+        }
+
     }
 }

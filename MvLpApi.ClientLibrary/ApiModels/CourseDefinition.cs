@@ -10,5 +10,7 @@ namespace MvLpApi.ClientLibrary.ApiModels
         public string Code { get; set; }
         public string Name { get; set; }
         public bool IsInternship { get; set; }
+        public int Points { get; set; }
+        public Subject Subject { get; set; }
     }
 }

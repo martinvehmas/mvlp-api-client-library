@@ -16,5 +16,7 @@ namespace MvLpApi.ClientLibrary.ApiModels
         public string Email2 { get; set; }
         public string MobilePhone { get; set; }
         public bool MayExposeMobilePhoneToStudents { get; set; }
+        public string WorkPhone { get; set; }
+        public bool MayExposeWorkPhoneToStudents { get; set; }        
     }
 }
